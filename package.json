@@ -1,5 +1,6 @@
 {
   "name": "passwordgenerator",
+  "homepage": "https://shaluyadav1231.github.io/passwordGenerator/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,10 +8,13 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm eun build",
+    "deploy": "gh-pages -d disth"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.16",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "tailwindcss": "^4.1.16"
